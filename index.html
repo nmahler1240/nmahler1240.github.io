@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -41,7 +42,7 @@
 
 
 
-	<section class="site-hero" style="background-image: url(images/Coverpic1.jpg);" id="section-home" data-stellar-background-ratio="0.5">
+	<section class="site-hero" style="background-image: url(images/coverpic2.jpg);" id="section-home" data-stellar-background-ratio="0.5">
 		<div class="container">
 			<div class="row intro-text align-items-center justify-content-center">
 				<div class="col-md-10 text-center pt-5">
@@ -55,7 +56,7 @@
 	</section> <!-- section -->
 
 
-	
+
 	<section class="site-section " id="section-resume">
 		<div class="container">
 			<div class="row">
@@ -83,7 +84,7 @@
 					<div class="resume-item mb-4">
 						<span class="date"><span class="icon-calendar"></span> July 5th 2019</span>
 						<h3>120 hour TEFL Training Course</h3>
-						<p>Certificate in Teching English as a Foreign Language.</p>
+						<p>Certificate in Teaching English as a Foreign Language.</p>
 						<span class="school">ITTT International TEFL and TESOL Training</span>
 					</div>
 
@@ -99,7 +100,7 @@
 						<p>Auxiliar teacher and private tutor. I implement lessons for all levels of English learners. I have also taught FCE, PET, and CAE test prep.</p>
 						<span class="school">Colegio Villalkor</span>
 					</div>
-                    
+
                     <div class="resume-item mb-4">
 						<span class="date"><span class="icon-calendar"></span> Summer 2020</span>
 						<h3>Camp English Teacher</h3>
@@ -138,7 +139,7 @@
 						<h2>About <strong>Me</strong></h2>
 					</div>
 					<p class="lead">Passionate, patient and driven.</p>
-					<p class="mb-5  ">I really enjoy teaching languages and helping students excel. My experience teahcing in the United States as well as abroad has helped me better understand and help students of all levels or English and Spanish. I believe that language should be learned with the students interests and experiences in mind to help them better achieve their goals.</p>
+					<p class="mb-5  ">I really enjoy teaching languages and helping students excel. My experience teaching in the United States as well as abroad has helped me better understand and help students of all levels of English and Spanish. I believe that language should be learned with the students interests and experiences in mind to help them better achieve their goals.</p>
 
 					<p>
 						<a href="#section-contact" class="btn btn-primary px-4 py-2 btn-sm smoothscroll">Hire Me</a>
@@ -169,7 +170,7 @@
 							<span class="icon-browser2"></span>
 						</span>
 						<h3 class="mb-4">Private English tutoring</h3>
-						<p>I have taught private lessons to a variety of students and ages. I can help prepare students for the FCE, CAE, APTIS and PET tests as well as help you improve your conversational English with a wide variety of fun activities.</p>
+						<p>I have taught private lessons to a wide variety of students. I can help prepare students for the FCE, CAE, APTIS and PET tests as well as help you improve your conversational English with a wide variety of fun activities.</p>
 
 					</div>
 				</div>
@@ -178,9 +179,9 @@
 						<span class="icon">
 							<span class="icon-presentation"></span>
 						</span>
-						<h3 class="mb-4">Online Enlglish tutoring</h3>
+						<h3 class="mb-4">Online English tutoring</h3>
 						<p>As well as in person tutoring I offer online classes. I have a lot of experience with teaching English online using a variety of platforms and engaging activities.</p>
-				
+
 					</div>
 				</div>
 				<div class="col-md-6 col-lg-4 text-center mb-5">
@@ -190,11 +191,11 @@
 						</span>
 						<h3 class="mb-4">Amature translation</h3>
 						<p>I can translate unoffical documents from English to Spanish or from Spanish to English. I am not a certified translator and I can not translate offical or legal documents.</p>
-				
+
 					</div>
 				</div>
 
-				
+
 
 			</div>
 		</div>
@@ -247,14 +248,14 @@
 							Travesia de las Vestillas <br>
 							Madrid Spain  <br>
                             28005
-							
+
 						</li>
 					</ul>
 				</div>
 			</div>
 		</div>
 	</section>
-
+	
 
 	<footer class="site-footer">
 		<div class="container">
@@ -266,7 +267,7 @@
 					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 				</p>
 			</div>
-			
+
 			<div class="row mb-5">
 				<div class="col-md-12 text-center">
 					<p>
@@ -276,8 +277,34 @@
 					</p>
 				</div>
 			</div>
-			
+
 		</div>
+
+<!--Comments -->
+
+		<div id="respond">
+
+		  <h3>Leave a Comment</h3>
+
+		  <form action="post_comment.php" method="post" id="commentform">
+
+		    <label for="comment_author" class="required">Your name</label>
+		    <input type="text" name="comment_author" id="comment_author" value="" tabindex="1" required="required">
+
+		    <label for="email" class="required">Your email;</label>
+		    <input type="email" name="email" id="email" value="" tabindex="2" required="required">
+
+		    <label for="comment" class="required">Your message</label>
+		    <textarea name="comment" id="comment" rows="10" tabindex="4"  required="required"></textarea>
+
+		    <!-- comment_post_ID value hard-coded as 1 -->
+		    <input type="hidden" name="comment_post_ID" value="<?php echo($comment_post_ID); ?>" id="comment_post_ID" />
+		    <input name="submit" type="submit" value="Submit comment" />
+
+		  </form>
+
+		</div>
+
 	</footer>
 
 
